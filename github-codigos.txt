@@ -1,0 +1,46 @@
+codigos github
+
+comandos git hub
+
+git init - inicia o codigo
+
+git remote add origin https//:git..... (repositório)
+
+git branch main (cria a main branch)
+
+git add (adiciona o arquivo)
+
+git commit -M "nome da versão"
+
+git push -u origin branch (aqui em vez de branch é main ou outra..)
+
+
+outros comandos:
+
+git status - status
+git config - em caso de precisar configurar
+git ref log - ver histórico
+
+git reset --hard 123456(número do id) - navegar entre versoes
+>> para retornar a uma versao antiga
+	1º verifica o histórico
+	2º copia o id da versao
+	3º git reset --hard (numero do id)
+
+
+git reset --hard 33121(numero do id) - para retornar a versão atual
+
+branchs
+git branch - ver as branchs
+git branch staging (nome geralmente utilizado) - criou
+gir checkout staging
+
+passos para merger
+git pull - traz as atualizações do servidor
+criar nova branch
+git checkout depois de fazer o que tinha de fazer
+git pull
+fundir as branchs
+git push na principal
+ 
+git checkout serve para o que for fazer depois não ir para mesma branch
